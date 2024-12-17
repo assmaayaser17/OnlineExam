@@ -102,40 +102,6 @@ export default function Subject() {
               ))
             ) : (
               <Question/>
-
-
-             
-              // <div className="p-6 fixed inset-0 flex items-center justify-center bg-black bg-opacity-30">
-              //   <div className="p-6 bg-white flex flex-col gap-5 w-[686px] rounded-[20px] shadow-lg">
-              //     <p className="text-gray-600">
-              //       Exercitationem pariatur quae facere vel id est illo velit aut.
-              //     </p>
-              //     <div className="bg-[#EDEFF3] p-5 flex gap-3">
-              //       <input type="checkbox" />
-              //       Numquam ipsum et nostrum non iste porro laudantium.
-              //     </div>
-              //     <div className="bg-[#EDEFF3] p-5 flex gap-3">
-              //       <input type="checkbox" />
-              //       Numquam ipsum et nostrum non iste porro laudantium.
-              //     </div>
-              //     <div className="bg-[#EDEFF3] flex gap-3 p-5">
-              //       <input type="checkbox" />
-              //       Numquam ipsum et nostrum non iste porro laudantium.
-              //     </div>
-              //     <div className="bg-[#EDEFF3] p-5 flex gap-3">
-              //       <input type="checkbox" />
-              //       Numquam ipsum et nostrum non iste porro laudantium.
-              //     </div>
-              //     <div className="flex justify-center gap-8">
-              //       <button className="w-[295px] h-[56px] border border-blue-500 rounded-full">
-              //         Back
-              //       </button>
-              //       <button className="w-[295px] h-[56px] bg-[#1D1B201F] rounded-full">
-              //         Next
-              //       </button>
-              //     </div>
-              //   </div>
-              // </div>
             )}
           </div>
         </div>
