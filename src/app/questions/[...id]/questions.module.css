@@ -1,0 +1,15 @@
+.element1 {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #02369C;
+    background-color: transparent;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .element1:focus {
+    --tw-ring-color: transparent;
+  }

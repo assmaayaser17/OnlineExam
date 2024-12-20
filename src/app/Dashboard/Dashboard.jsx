@@ -30,11 +30,11 @@ export default function Dashboard() {
   }, [])
   return (
     <>
-    <div className=" profilecard bg-white  rounded-lg shadow p-6 flex  gap-8 ">
+    <div className=" profilecard bg-white  rounded-lg shadow p-6 grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1  gap-8 ">
       <Image
         src={pcard}
         alt="Profile"
-        className="w-[216px] h-[216px] object-cover"
+        className="w-[216px] h-[216px]  object-cover"
       />
       <div className="flex flex-col  gap-8">
         <div className='flex flex-col gap-2'>
