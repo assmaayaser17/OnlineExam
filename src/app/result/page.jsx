@@ -76,6 +76,19 @@
    
 //   )
 //     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React, { useContext, useEffect, useState } from "react";
 import { getSession } from "next-auth/react";
 import axios from "axios";
@@ -101,8 +114,9 @@ export default function Result() {
             headers: { token: session?.token },
           }
         );
+        console.log(data)
 
-        setResult(data); // Save the full response object
+        setResult(data); 
       } catch (error) {
         console.error("Error fetching results:", error);
       }
@@ -111,7 +125,7 @@ export default function Result() {
     displayResult();
   }, [selectedAnswers]);
 
-  // Handle undefined result during initial render
+
   if (!result) {
     return (
       <div className="flex justify-center items-center h-screen">
@@ -143,7 +157,7 @@ export default function Result() {
    <div
      className="absolute top-0 left-0 w-40 h-40 flex items-center justify-center"
    >
-     <p className="text-3xl font-bold text-gray-800">{total}</p>
+     <p className="text-3xl font-bold text-gray-800"> {parseFloat(total).toFixed(0)}%</p>
    </div>
            </div>
         <div className="flex flex-col gap-5">
